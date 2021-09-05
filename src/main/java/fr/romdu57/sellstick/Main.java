@@ -1,10 +1,7 @@
 package fr.romdu57.sellstick;
 
 import fr.romdu57.sellstick.commands.sellstick;
-import org.bukkit.Material;
-import org.bukkit.enchantments.Enchantment;
 import org.bukkit.plugin.java.JavaPlugin;
-import fr.romdu57.sellstick.utils.ItemBuilder;
 
 public class Main extends JavaPlugin {
 

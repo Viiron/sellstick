@@ -22,7 +22,7 @@ public class MyEventStick implements Listener {
                 return;
             }
             if(e.getItem().getType() == Material.STICK) {
-                if(action.equals(Action.LEFT_CLICK_BLOCK)) {
+                if(action.equals(Action.LEFT_CLICK_BLOCK) && p.isSneaking()) {
                     if (e.getItem().hasItemMeta() && e.getItem().getItemMeta().getDisplayName().equals("§cBaton de Vente")) {
                         e.setCancelled(true);
                         Bukkit.dispatchCommand(p, "sellall");
@@ -30,6 +30,5 @@ public class MyEventStick implements Listener {
                     }
                 }
             }
-
     }
 }
