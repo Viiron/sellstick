@@ -1,7 +1,7 @@
 name: sellstick
 version: 1.0
 author: Romdu57
-main: fr.romdu57.sellstick.Main
+main: fr.romdu57.sellstick.SellStick
 commands:
   sellstick:
     description: Commande d'achat du stick
